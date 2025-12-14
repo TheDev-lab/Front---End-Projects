@@ -1,0 +1,466 @@
+@media (max-width: 1310px) {
+  #section-about p {
+    width: 35rem;
+  }
+  #section-hero .desc {
+    width: 45rem;
+  }
+  #section-hero h2 {
+    font-size: 4.2rem;
+  }
+}
+@media (max-width: 1260px) {
+  #section-hero .desc {
+    width: 40rem;
+  }
+  #section-hero h2 {
+    font-size: 3.8rem;
+  }
+  #section-hero .image {
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 1150px) {
+  #section-hero .desc {
+    width: 36rem;
+  }
+  #section-hero h2 {
+    font-size: 3.6rem;
+  }
+  #section-hero .image {
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .stats {
+    gap: 3.2rem;
+  }
+  .details {
+    justify-content: center;
+    gap: 7rem;
+  }
+}
+@media (max-width: 1060px) {
+  .card {
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    width: 18rem;
+    height: 23.5rem;
+    background-color: #1e1e1e;
+    transition: all 0.15s ease;
+  }
+  h5 {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+  }
+  .card .price {
+    display: flex;
+    align-items: end;
+  }
+  .card .price h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2f9e44;
+  }
+  .card .price .month {
+    color: rgba(98, 98, 98, 0.7);
+    font-size: 0.8rem;
+  }
+  .card p {
+    font-size: 1rem;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .card li {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .line {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 16rem;
+    height: 0.1rem;
+  }
+  .card .cta {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}
+@media (max-width: 960px) {
+  .stats {
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+  #section-about p {
+    width: 70rem;
+  }
+  .card {
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    width: 16rem;
+    height: 20.5rem;
+    background-color: #1e1e1e;
+    transition: all 0.15s ease;
+  }
+  h5 {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+  }
+  .card .price {
+    display: flex;
+    align-items: end;
+  }
+  .card .price h4 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #2f9e44;
+  }
+  .card .price .month {
+    color: rgba(98, 98, 98, 0.7);
+    font-size: 0.6rem;
+  }
+  .card p {
+    font-size: 0.8rem;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .card li {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .line {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 14rem;
+    height: 0.1rem;
+  }
+  .card .cta {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  #section-hero .desc {
+    width: 30rem;
+  }
+  #section-hero h2 {
+    font-size: 3rem;
+  }
+  #section-hero .image {
+    width: 22rem;
+    height: 22rem;
+  }
+}
+@media (max-width: 860px) {
+  #section-hero .image {
+    width: 18rem;
+    height: 18rem;
+  }
+  .card {
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    width: 13rem;
+    height: 21.5rem;
+    background-color: #1e1e1e;
+    transition: all 0.15s ease;
+  }
+  h5 {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+  }
+  .card .price {
+    display: flex;
+    align-items: end;
+  }
+  .card .price h4 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #2f9e44;
+  }
+  .card .price .month {
+    color: rgba(98, 98, 98, 0.7);
+    font-size: 0.7rem;
+  }
+  .card p {
+    font-size: 0.8rem;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .card li {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .line {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 11.5rem;
+    height: 0.1rem;
+  }
+  .card .cta {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .card .cta .btn {
+    font-size: 0.8rem;
+  }
+  .quote {
+    font-size: 1rem;
+  }
+  .socialMedia {
+    gap: 1rem;
+  }
+  .icon {
+    width: 1.8rem;
+  }
+}
+@media (max-width: 760px) {
+  #section-hero .image {
+    width: 12rem;
+    height: 12rem;
+  }
+  #section-hero .desc {
+    width: 25rem;
+  }
+  #section-hero h2 {
+    font-size: 3.8rem;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    gap: 1.1rem;
+    width: 24rem;
+    height: 25rem;
+  }
+  h5 {
+    font-size: 1.4rem;
+  }
+  .card .price h4 {
+    font-size: 1.4rem;
+  }
+  .card .price .month {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 1.1rem;
+  }
+  .card li {
+    font-size: 1rem;
+  }
+  .line {
+    width: 18rem;
+  }
+  .card .cta .btn {
+    font-size: 1rem;
+  }
+  .quote {
+    font-size: 0.8rem;
+  }
+  .socialMedia {
+    gap: 0.8rem;
+  }
+  .icon {
+    width: 1.6rem;
+  }
+  .footer h1 {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 630px) {
+  #section-hero .content {
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  #section-hero .image {
+    width: 16rem;
+    height: 16rem;
+  }
+  #section-hero .desc {
+    width: 30rem;
+    text-align: center;
+  }
+  #section-hero h2 {
+    text-align: center;
+    font-size: 3.8rem;
+  }
+  #section-about {
+    margin-top: 11rem;
+  }
+  .content-title {
+    font-size: 3.2rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+  }
+  .details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+  }
+  #section-about p {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 30rem;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .stats {
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4.8rem;
+  }
+  .footer {
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+    flex-direction: column;
+    gap: 0.6rem;
+    height: 5.5rem;
+  }
+  .footer h1,
+  .header h2 {
+    font-size: 2.2rem;
+  }
+  .nav ul {
+    gap: 1.6rem;
+  }
+  .nav .navItem {
+    font-size: 1.1rem;
+  }
+  .socialMedia {
+    margin-bottom: 1.6rem;
+  }
+}
+@media (max-width: 520px) {
+  #section-hero .desc {
+    width: 25rem;
+  }
+  #section-hero h2 {
+    font-size: 3.4rem;
+  }
+  #section-about {
+    margin-top: 14rem;
+  }
+  #section-about p {
+    width: 25rem;
+  }
+  .header h2 {
+    font-size: 2rem;
+  }
+  .nav ul {
+    gap: 1.2rem;
+  }
+  .nav .navItem {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    gap: 1.1rem;
+    width: 20rem;
+    height: 25rem;
+  }
+  h5 {
+    font-size: 1.4rem;
+  }
+  .card .price h4 {
+    font-size: 1.4rem;
+  }
+  .card .price .month {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 1.1rem;
+  }
+  .card li {
+    font-size: 1rem;
+  }
+  .line {
+    width: 18rem;
+  }
+  .card .cta .btn {
+    font-size: 1rem;
+  }
+  .stats {
+    width: 25rem;
+    display: flex;
+    gap: 2.4rem;
+  }
+  .header h2 {
+    font-size: 1.6rem;
+  }
+  .nav ul {
+    gap: 0.8rem;
+  }
+  .nav .navItem {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 420px) {
+  #section-hero .desc {
+    width: 18rem;
+  }
+  #section-hero h2 {
+    font-size: 3.4rem;
+  }
+  .card {
+    gap: 1.1rem;
+    width: 18rem;
+    height: 26rem;
+  }
+  .line {
+    width: 16rem;
+  }
+  #section-hero .cta {
+    margin-top: 1.6rem;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.6rem;
+  }
+  #section-about {
+    margin-top: 28rem;
+  }
+  #section-about p {
+    width: 18rem;
+  }
+  .stats {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.6rem;
+  }
+}
+@media (max-width: 350px) {
+  .header h2 {
+    display: none;
+  }
+}
